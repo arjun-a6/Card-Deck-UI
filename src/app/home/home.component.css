@@ -1,0 +1,34 @@
+.cards:hover{
+    outline:4px;
+    box-shadow:4px;
+    cursor:pointer;
+}
+
+img.selectedIMG{
+    border: 2px solid blue;
+}
+
+.img-wrap {
+    position: relative;
+    display: inline-block;
+}
+
+.img-wrap img {
+    display: block;
+}
+
+.show-on-hover {
+    display: none;   
+    position:absolute;
+    top: 50%;
+    left: 26%;
+    -ms-transform: translateY(-50%) translateX(-50%);    
+    transform: translateY(-50%) translateX(-16%);
+    background-color: royalblue;  
+    color:white; 
+}
+
+.img-wrap:hover .show-on-hover {
+    display: inline-block;
+    
+}
